@@ -1,0 +1,17 @@
+{
+  "name": "fly-bira-fly",
+  "homepage": "https://github.com/Juravenator/fly-bira-fly",
+  "authors": [
+    "Glenn Dirkx <glenn.dirkx@gmail.com>"
+  ],
+  "description": "type catcatcat and Bira will fly",
+  "main": "fly-bira-fly.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

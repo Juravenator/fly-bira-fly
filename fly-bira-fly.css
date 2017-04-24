@@ -1,0 +1,17 @@
+img[fly-bira-fly] {
+  max-width: 500px;
+  max-height: 500px;
+
+  position: fixed;
+  right: -500px;
+
+  animation-name: birafly;
+}
+@keyframes birafly {
+  from {
+  }
+
+  to {
+    right: 100%;
+  }
+}

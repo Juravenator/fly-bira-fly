@@ -1,6 +1,7 @@
 window.onload = function flyBiraFlyOnload() {
 
-  var dir = document.querySelector('script[src$="fly-bira-fly.js"]').getAttribute('src').slice(0,-"fly-bira-fly.js".length);
+  var scriptel = document.querySelector('script[src$="fly-bira-fly.js"]');
+  var dir = scriptel ? scriptel.getAttribute('src').slice(0,-"fly-bira-fly.js".length) : "/bower_components/fly-bira-fly/";
   var catpics = new Array(16);
   for (var i = 0; i < catpics.length;) {
     catpics[i] = dir + "catpics/" + ++i + ".jpg"
